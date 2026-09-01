@@ -59,59 +59,223 @@
         </div>
       </div>
     </section>
-
-    <!-- ABOUT: added to match the Figma reference -->
-    <section id="about" class="about-section">
-      <div class="about-glow about-glow-left"></div>
-      <div class="about-glow about-glow-right"></div>
-
-      <div class="about-container">
-        <div class="about-top">
-          <div class="about-copy">
-            <p class="section-label">ABOUT</p>
-            <h2>About <span>Us</span></h2>
-            <p>
-              We provide students with the knowledge and practical skills needed
-              to understand and work with modern technology. Our focus is
-              fundamental systems, programming, web development, databases,
-              computer networks, and software development.
-            </p>
-            <p>
-              Through hands-on activities, projects, and problem-solving
-              exercises, students learn not only what they study, but also how
-              to apply their knowledge creatively and responsibly. Our programs
-              prepare students for further studies, teamwork, and future careers
-              in the field of information technology.
-            </p>
+    
+    <!-- ABOUT SECTION  -->
+    <section class="about-section">
+      <div class="glow-orb"></div>
+      <div class="glow-corner"></div>
+      <div class="container position-relative">
+        <div class="row align-items-center g-5 mb-5">
+          <div class="col-lg-6">
+            <div class="eyebrow-line mb-3"></div>
+            <h1 class="about-heading mb-4">
+              About <span class="accent">Us</span>
+            </h1>
+            <div class="about-copy">
+              <p>
+                We provide students with the knowledge and practical skills
+                needed to understand and work with modern technology. It covers
+                fundamental areas such as programming, web development,
+                databases, computer systems, and software development.
+              </p>
+              <p>
+                Through hands-on activities, projects, and problem-solving
+                exercises, students learn how to apply what they study to
+                real-world situations. The program also encourages creativity,
+                critical thinking, teamwork, and continuous learning to prepare
+                students for further studies and future careers in the field of
+                information technology.
+              </p>
+            </div>
           </div>
 
-          <div class="about-feature">
-            <img
-              src="https://i.pinimg.com/736x/8c/1d/58/8c1d58ca1839d5505b60676545e3130a.jpg"
-              alt="College of Computing Studies campus and facilities"
-              class="about-feature-image"
-            >
+          <!-- Right: feature panel -->
+          <div class="col-lg-6">
+            <div class="feature-panel">
+              <img
+                src="https://www.ceis.edu.ph/sites/default/files/CEUMalolos_2558_0.jpg"
+                alt="Students in the computing lab"
+                class="feature-img"
+              />
+            </div>
           </div>
         </div>
 
-        <div class="about-cards">
-          <article class="about-card">
-            <span class="about-card-icon"><i class="bi bi-lightbulb"></i></span>
-            <h3>Innovation</h3>
-            <p>Encouraging students to explore ideas, solve problems, and create meaningful digital solutions.</p>
-          </article>
+        <!-- CAROUSEL -->
+        <div class="about-carousel position-relative">
+          <div
+            id="aboutCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-touch="true"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-track">
+                  <div class="carousel-card">
+                    <article class="about-card">
+                      <span class="about-card-icon"
+                        ><i class="bi bi-lightbulb"></i
+                      ></span>
+                      <h3>Innovation</h3>
+                      <p>
+                        Encouraging students to explore ideas, solve problems,
+                        and create meaningful digital solutions.
+                      </p>
+                    </article>
+                  </div>
+                  <div class="carousel-card card-two">
+                    <article class="about-card">
+                      <span class="about-card-icon"
+                        ><i class="bi bi-code-slash"></i
+                      ></span>
+                      <h3>Practical Learning</h3>
+                      <p>
+                        Building technical skills through hands-on activities,
+                        projects, and real-world applications.
+                      </p>
+                    </article>
+                  </div>
+                  <div class="carousel-card card-three">
+                    <article class="about-card">
+                      <span class="about-card-icon"
+                        ><i class="bi bi-people"></i
+                      ></span>
+                      <h3>Community</h3>
+                      <p>
+                        Creating a supportive learning environment where
+                        students grow, collaborate, and succeed together.
+                      </p>
+                    </article>
+                  </div>
+                </div>
+              </div>
 
-          <article class="about-card">
-            <span class="about-card-icon"><i class="bi bi-code-slash"></i></span>
-            <h3>Practical Learning</h3>
-            <p>Building technical skills through hands-on activities, projects, and real-world applications.</p>
-          </article>
+              <div class="carousel-item">
+                <div class="carousel-track">
+                  <div class="carousel-card">
+                    <article class="about-card">
+                      <span class="about-card-icon"
+                        ><i class="bi bi-briefcase"></i
+                      ></span>
+                      <h3>Industry Partnerships</h3>
+                      <p>
+                        Connecting students with companies for internships,
+                        immersion programs, and real industry exposure.
+                      </p>
+                    </article>
+                  </div>
+                  <div class="carousel-card card-two">
+                    <article class="about-card">
+                      <span class="about-card-icon"
+                        ><i class="bi bi-graph-up-arrow"></i
+                      ></span>
+                      <h3>Career Readiness</h3>
+                      <p>
+                        Preparing graduates with the technical and soft skills
+                        employers look for from day one.
+                      </p>
+                    </article>
+                  </div>
+                  <div class="carousel-card card-three">
+                    <article class="about-card">
+                      <span class="about-card-icon"
+                        ><i class="bi bi-pc-display"></i
+                      ></span>
+                      <h3>Modern Facilities</h3>
+                      <p>
+                        Learning in well-equipped labs built for programming,
+                        networking, and systems work.
+                      </p>
+                    </article>
+                  </div>
+                </div>
+              </div>
 
-          <article class="about-card">
-            <span class="about-card-icon"><i class="bi bi-people"></i></span>
-            <h3>Community</h3>
-            <p>Creating a supportive learning environment where students grow, collaborate, and succeed together.</p>
-          </article>
+              <div class="carousel-item">
+                <div class="carousel-track">
+                  <div class="carousel-card">
+                    <article class="about-card">
+                      <span class="about-card-icon"
+                        ><i class="bi bi-search"></i
+                      ></span>
+                      <h3>Research &amp; Development</h3>
+                      <p>
+                        Exploring emerging technologies through faculty-led and
+                        student-driven research projects.
+                      </p>
+                    </article>
+                  </div>
+                  <div class="carousel-card card-two">
+                    <article class="about-card">
+                      <span class="about-card-icon"
+                        ><i class="bi bi-person-check"></i
+                      ></span>
+                      <h3>Mentorship</h3>
+                      <p>
+                        Guiding students one-on-one with faculty who invest in
+                        their growth and goals.
+                      </p>
+                    </article>
+                  </div>
+                  <div class="carousel-card card-three">
+                    <article class="about-card">
+                      <span class="about-card-icon"
+                        ><i class="bi bi-globe"></i
+                      ></span>
+                      <h3>Global Opportunities</h3>
+                      <p>
+                        Opening doors to exchange programs, certifications, and
+                        international tech communities.
+                      </p>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              class="carousel-arrow prev"
+              type="button"
+              data-bs-target="#aboutCarousel"
+              data-bs-slide="prev"
+            >
+              <i class="bi bi-chevron-left"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-arrow next"
+              type="button"
+              data-bs-target="#aboutCarousel"
+              data-bs-slide="next"
+            >
+              <i class="bi bi-chevron-right"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#aboutCarousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#aboutCarousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#aboutCarousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
